@@ -1,0 +1,14 @@
+{
+	"name":        "system-locale",
+	"description": "Get the locale from your operating system.",
+	"version":     "0.1.0",
+	"main":        "index.js",
+	"files":       ["index.js", "os-x-locale", "linux-locale"],
+	"keywords":    ["macos", "os x", "windows", "linux", "locale", "region", "language", "icu"],
+	"author":      "Jannis R <mail@jannisr.de>",
+	"homepage":    "https://github.com/derhuerst/system-locale",
+	"repository":  "derhuerst/system-locale",
+	"bugs":        "https://github.com/derhuerst/system-locale/issues",
+	"license":     "ISC",
+	"engines":     {"node": ">=6"}
+}
