@@ -10,5 +10,12 @@
 	"repository":  "derhuerst/system-locale",
 	"bugs":        "https://github.com/derhuerst/system-locale/issues",
 	"license":     "ISC",
-	"engines":     {"node": ">=6"}
+	"engines":     {"node": ">=6"},
+	"devDependencies": {
+		"is-promise": "^2.1"
+	},
+	"scripts": {
+		"prepublish": "npm test",
+		"test": "node test.js"
+	}
 }
