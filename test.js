@@ -12,6 +12,10 @@ const showError = (err) => {
 	throw err
 }
 
+
+
+assert(typeof locale.sync(), 'string', 'result is not a string')
+
 assert(isPromise(locale()), 'not a promise')
 
 locale()
