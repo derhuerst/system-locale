@@ -12,14 +12,19 @@ const showError = (err) => {
 	throw err
 }
 
+console.info('platform:', process.platform)
+
 
 
 assert(typeof locale.sync(), 'string', 'result is not a string')
+console.info('sync:', locale.sync())
 
 assert(isPromise(locale()), 'not a promise')
 
 locale()
 .then((locale) => {
 	assert(typeof locale, 'string', 'result is not a string')
+	console.info('async:', locale)
 })
 .catch(showError)
+
