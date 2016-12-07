@@ -3,7 +3,7 @@
 	"description": "Get the locale from your operating system.",
 	"version":     "0.1.0",
 	"main":        "index.js",
-	"files":       ["index.js", "os-x-locale", "linux-locale"],
+	"files":       ["index.js", "os-x-locale", "linux-locale", "windows-locale.cmd"],
 	"keywords":    ["macos", "os x", "windows", "linux", "locale", "region", "language", "icu"],
 	"author":      "Jannis R <mail@jannisr.de>",
 	"homepage":    "https://github.com/derhuerst/system-locale",
