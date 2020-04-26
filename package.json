@@ -12,7 +12,7 @@
 	"license":     "ISC",
 	"engines":     {"node": ">=6"},
 	"devDependencies": {
-		"is-promise": "^2.1"
+		"is-promise": "^3.0.0"
 	},
 	"scripts": {
 		"prepublish": "npm test",
